@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "lib": ["ES2020"],
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "*": ["scr/*", "scrv2/*"]
+    },
+    "typeRoots": ["src/types", "./node_modules/@types"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
