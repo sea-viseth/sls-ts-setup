@@ -1,4 +1,4 @@
-service: wire-middleware
+service: sls-ts-setup
 frameworkVersion: "3"
 
 plugins:
